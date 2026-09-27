@@ -1,0 +1,38 @@
+.root {
+    -fx-font-family: "Segoe UI", "Tahoma", "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f6fa;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3a60;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 260px;
+}
+
+.button {
+    -fx-background-color: #2f6fd6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 7 18;
+    -fx-cursor: hand;
+}
+
+.button:hover { -fx-opacity: 0.9; }
+.button.secondary { -fx-background-color: #6c757d; }
+.button.activate { -fx-background-color: #2e9d57; }
+.button.disable { -fx-background-color: #e0a100; }
+.button.ban { -fx-background-color: #d64545; }
+
+.message-error { -fx-text-fill: #c62828; -fx-font-weight: bold; }
+.message-success { -fx-text-fill: #2e7d32; -fx-font-weight: bold; }
+
+.status-pending { -fx-text-fill: #8a6d00; -fx-font-weight: bold; }
+.status-active { -fx-text-fill: #2e7d32; -fx-font-weight: bold; }
+.status-disabled { -fx-text-fill: #6c757d; -fx-font-weight: bold; }
+.status-banned { -fx-text-fill: #c62828; -fx-font-weight: bold; }
